@@ -252,22 +252,29 @@
     }
     
     .steps .step .border_top {
-        border-top: 10px solid #FF7300;
+        border-top: 7px solid #FF7300;
     }
     
     .steps .step .border_bottom {
-        border-bottom: 10px solid #FF7300;
+        border-bottom: 7px solid #FF7300;
     }
     
     .steps .step .icon {
+        max-width: 50%;
         width: 100%;
         border-radius: 50%;
         padding: 4px;
+        font-size: 50px;
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+        padding: 20px;
     }
     
     .steps .step .step_title {
         text-align: center;
         margin-top: 10px;
+        width: 100%;
     }
     
     .steps .step .step_subtitle {
