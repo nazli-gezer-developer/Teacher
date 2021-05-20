@@ -7,7 +7,7 @@ var simplemaps_countrymap_mapdata = {
         border_color: "#gray",
 
         //State defaults
-        state_description: "State description",
+        state_description: "",
         state_color: "#88A4BC",
         state_hover_color: "#3B729F",
         state_url: "",
@@ -128,7 +128,7 @@ var simplemaps_countrymap_mapdata = {
             lat: "41.3166677",
             lng: "69.25",
             name: '<img src="img/map_logo.png" width="100px" />',
-            description: '<div class"map"><div id="buxoro"><h3>Toshkent</h3><p>Bu bizning filialimiz</p></div></div>',
+            description: '<div class"map"><div id="buxoro"><p>“Ўқитувчилар ассоциацияси” </p></div></div>',
         }
     },
     labels: {

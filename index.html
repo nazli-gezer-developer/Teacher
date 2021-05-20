@@ -26,23 +26,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <script src="./js/mapdata.js" defer></script>
     <script src="./js/countrymap.js" defer></script>
-
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
     <div class="container">
         <!--  header start-->
-        <div class="nav-in">
+        <div id="black" class="nav-in">
             <img src="img/logo2.png" class="site-logo" alt="JPG">
             <img src="img/logo1.png" class="site-logo" alt="JPG">
             <nav>
                 <!-- The overlay -->
                 <div class="overlay">
-                    <p> +998 71 207-39-39</p>
+                    <ul class="mobile-menu__list">
+                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#home"></a> </li>
+                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#Video">Видео</a> </li>
+                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#about">Биз ҳақимизда</a> </li>
+                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#map">Харита</a> </li>
+                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#Projects_cards">Лойихалар</a>
+                        </li>
+                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#progres_block">Прогрес</a>
+                        </li>
+                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#gallary">Галерия</a> </li>
+                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#footer">Aлоқа</a> </li>
+                    </ul>
                 </div>
-            </nav>
         </div>
-        <header>
+        <header id="home">
             <!-- Swiper -->
             <div class="swiper-container2 mySwiper">
                 <div class="swiper-wrapper">
@@ -55,25 +66,35 @@
                             </h1>
                         </div>
                         <div class="header__title-bottom">
-                            <h1 class="wow animate__fadeInDownBig" data-wow-duration="2s"> УСТОЗЛАРНИ ИЖТИМОИЙ, ҲУҚУҚИЙ,
-                                МАЪНАВИЙ ҚЎЛЛАШДА ЎЗ ХИССАНГИЗНИ ҚЎШИНГ!</h1>
+                            <h1 class="wow animate__fadeInLeftBig" data-wow-duration="2s"> ЎҚИТУВЧИЛАРНИ ИЖТИМОИЙ,
+                                ҲУҚУҚИЙ ВА МАЪНАВИЙ ҚЎЛЛАБ-ҚУВВАТЛАШДА ЎЗ ХИССАНГИЗНИ ҚЎШИНГ!</h1>
                         </div>
 
                     </div>
                     <div class="swiper-slide swiper-backslide">
                         <div class="header__back"></div>
                         <img src="img/1.5.JPG" alt="img">
+                        <div class="header__title">
+                            <h1 class="wow animate__fadeInDownBig " data-wow-duration="1s">"ЎЗБЕКИСТОНДА МУСТАҚИЛ
+                                ЎҚИТУВЧИЛАР АССОЦИАЦИЯЛАРИ ИМКОНИЯТЛАРИНИ КЕНГАЙТИРИШ” ЛОЙИҲАСИ"
+                            </h1>
+                        </div>
                         <div class="header__title-bottom">
-                            <h1 class="wow animate__fadeInDownBig " data-wow-duration="2s">УСТОЗЛАРНИНГ МАЛАКАСИ ВА
-                                КАСБИЙ САЛОҲИЯТИНИ ОШИРИШГА КЎМАКЛАШИНГ!</h1>
+                            <h1 class="wow animate__fadeInDownBig " data-wow-duration="2s">ЎҚИТУВЧИЛАРНИНГ МАЛАКАСИ ВА
+                                КАСБИЙ САЛОҲИЯТИНИ ОШИРИШДА КЎМАКЛАШИНГ!</h1>
                         </div>
                     </div>
                     <div class="swiper-slide swiper-backslide">
                         <div class="header__back"></div>
                         <img src="img/1.8.jpg" alt="img">
+                        <div class="header__title">
+                            <h1 class="wow animate__fadeInDownBig " data-wow-duration="2s">"ЎЗБЕКИСТОНДА МУСТАҚИЛ
+                                ЎҚИТУВЧИЛАР АССОЦИАЦИЯЛАРИ ИМКОНИЯТЛАРИНИ КЕНГАЙТИРИШ” ЛОЙИҲАСИ"
+                            </h1>
+                        </div>
                         <div class="header__title-bottom">
                             <h1 class="wow animate__fadeInDownBig " data-wow-duration="2s">ЎҚИТУВЧИЛАРНИНГ ҲУҚУҚИЙ
-                                САВОДХОНЛИГИНИ ОШИРИШДА КЎМАКЛАШИНГ!</h1>
+                                САВОДХОНЛИГИНИ ОШИРИШ ЙЎЛИДА БИРЛАШИНГ!</h1>
                         </div>
                     </div>
                 </div>
@@ -86,107 +107,110 @@
 
         <!--    main start-->
         <main>
-            <div class="video wow animate__fadeInDownBig" data-wow-duration="2s">
+            <div id="Video" class="video wow animate__fadeInDownBig" data-wow-duration="2s">
+                <p>БИР ОИЛАДЕК БИРЛАШИБ ХАРАКАТ ҚИЛАЙЛИК ВА ЎҚИТУВЧИЛАР УЧУН КЕНГ ИМКОНИЯТЛАР ЯРАТАЙЛИК!</p>
                 <iframe src="https://www.youtube.com/embed/linlz7-Pnvw" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
             <!-- About us starts here  -->
-            <div class="about-us">
+            <div id="about" class="about-us">
                 <div class="image wow animate__fadeInLeft   " data-wow-duration="3s"></div>
                 <div class="info wow animate__fadeInRight" data-wow-duration="2s">
                     <h1 class="wow animate__fadeInDown" data-wow-duration="3s">
-                        АССОЦИАЦИЯ ТУЗИШ ҚАНДАЙ ИМКОНИЯТЛАР ЯРАТАДИ?
+                        МУСТАҚИЛ АССОЦИАЦИЯЛАР ТАШКИЛ ЭТИБ, ҚУЙИДАГИ НАЖИЛАРГА ЭРИШИНГ:
                     </h1>
                     <div class="content wow animate__fadeInRight" data-wow-duration="2s">
                         <div class="content-info">
-                            <div class="spn wow animate__bounce" data-wow-duration="2s">1</div>
+                            <div class="spn wow animate__fadeInRight" data-wow-duration="2s">1</div>
                             <h3>
-                                Жамиятда устозлар нуфузини <br /> ошириш ва ижтимоий химоя қилиш
+                                Жамиятда устозлар нуфузини ошириш ва ижтимоий химоя қилиш;
                             </h3>
                         </div>
                         <div class="content-info">
-                            <div class="spn wow animate__bounce" data-wow-duration="2s">2</div>
+                            <div class="spn wow animate__fadeInRight" data-wow-duration="4s">2</div>
                             <h3>
-                                Ўқитувчиларнинг ҳуқуқий саводхонлигини ошириш
+                                Ўқитувчиларнинг ҳуқуқий саводхонлигини ошириш;
                             </h3>
                         </div>
                         <div class="content-info">
-                            <div class="spn wow animate__bounce" data-wow-duration="2s">3</div>
+                            <div class="spn wow animate__fadeInRight" data-wow-duration="4s">3</div>
                             <h3>
-                                Устозларнинг малакаси ва касбий салоҳиятини ошириш
+                                Устозларнинг малакаси ва касбий салоҳиятини ошириш;
                             </h3>
                         </div>
                         <div class="content-info">
-                            <div class="spn wow animate__bounce" data-wow-duration="2s">4</div>
+                            <div class="spn wow animate__fadeInRight" data-wow-duration="6s">4</div>
                             <h3 class="spn-four">
-                                Ёш устозларни қўллаб-қувватлаш
+                                Ёш устозларни қўллаб-қувватлаш (устоз – шогирд тажрибаси бўйича);
                             </h3>
                         </div>
                         <div class="content-info">
-                            <div class="spn wow animate__bounce" data-wow-duration="2s">5</div>
+                            <div class="spn wow animate__fadeInRight" data-wow-duration="8s">5</div>
                             <h3>
-                                Устозларнинг инновацион ғояларини илгари суриш
+                                Устозларнинг инновацион ғояларини илгари суриш;
                             </h3>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- About us ends here  -->
-            <div class="map wow animate__zoomIn" data-wow-duration="2s">
+            <div id="map" class="map wow animate__zoomIn" data-wow-duration="2s">
+                <p>ЛОЙИҲА ДОИРАСИДА ТАШКИЛ ЭТИЛГАН
+                    МУСТАҚИЛ АССОЦИАЦИЯЛАР
+                </p>
                 <div id="map"></div>
                 <img src="img/map_logo.png" style="display: none; width: 100% " />
                 <div style="display: none;" id="Toshkent ">
                     <h3 style="display: none;">Toshkent</h3>
-                    <p style="display: none;">Bu bizning filialimiz</p>
+                    <p style="display: none;">“Ўқитувчилар ассоциацияси” </p>
                 </div>
             </div>
             <!--start-->
-            <div class="Projects_cards">
+            <div id="Projects_cards" class="Projects_cards">
                 <div class="containerr">
                     <div class="navbar wow animate__fadeInDown" data-wow-duration="2s">
                         <div class="content-1">
-                            <div class="nav">Лойиҳа доирасидаги илк Ассоциация <br> фаолиятидан лавхалар</div>
+                            <div class="nav">ЛОЙИҲА ДОИРАСИДА ТАШКИЛ ЭТИЛГАН ИЛК ЖАМОАТ БИРЛАШМАСИ ШАКЛИДАГИ <br>
+                                “ЎҚИТУВЧИЛАР АССОЦИАЦИЯСИ” ФАОЛИЯТИДАН ЛАВҲАЛАР
+                            </div>
                         </div>
                     </div>
                     <div class="burger-nav wow animate__fadeInRight" data-wow-duration="3s">
                         <div class="content">
-                            <img src="./img/1.jpg" alt="img" class="card_image">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, rem totam.
-                                Voluptatibus odit, minima iure obcaecati, harum qui soluta est cupiditate ipsam nobis
-                                possimus</p>
+                            <img src="./img/News1.jpg" alt="img" class="card_image">
+                            <p>
+                                Халқаро тажрибалар асосида “Ўқитувчилар Aссоциацияси”ташаббуси билан GLOBAL TEACHER
+                                PRIZE
+                                кўмагида “Устоз-2020” Миллий мукофоти учун танлов ўтказилди. Танловда 6та номинация
+                                бўйича, 12,5 мингга яқин ўқитувчилар иштирок этди. Ғолибларга 30 миллион сўм пул
+                                мукофоти ҳамда Дубай шаҳрида бўлиб ўтадиган Global Teacher Prize 2021 тақдирлаш
+                                маросимида иштирок этиш имконияти берилди.
+                                <a class="hover" href="1.	https://t.me/oqituvchilar_assotsiatsiyasi/130">
+                                    Batafsil...</a>
+                            </p>
                         </div>
                         <div class="content">
 
-                            <img src="./img/1.jpg" alt="img" class="card_image">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, rem totam.
-                                Voluptatibus odit, minima iure obcaecati, harum qui soluta est cupiditate ipsam nobis
-                                possimus</p>
+                            <img src="./img/News3.jpg" alt="img" class="card_image">
+                            <p>Projects_cardsOxford Centre of English Studies билан хамкорликда инглиз тили ўқитувчилари
+                                учун бепул онлайн курслар ташкил этилди, инглиз тилини ўқитиш ва дарсларни режалаштириш
+                                бўйича янги билимлар олиш имконияти яратилди. Бунинг учун аввал қатнашиш истагини
+                                билдирган устозларнинг инглиз тилидаги билими даражаси аниқланиб, сўнг курслар дастури
+                                ишлаб чиқилди.
+                                <a class="hover" href="https://t.me/oqituvchilar_assotsiatsiyasi/181"> Batafsil...</a>
+                            </p>
 
                         </div>
                         <div class="content ">
-                            <img src="./img/1.jpg" alt="img" class="card_image">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, rem totam.
-                                Voluptatibus odit, minima iure obcaecati, harum qui soluta est cupiditate ipsam nobis
-                                possimus</p>
-                        </div>
-                        <div class="content ">
-                            <img src="./img/1.jpg" alt="img" class="card_image">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, rem totam.
-                                Voluptatibus odit, minima iure obcaecati, harum qui soluta est cupiditate ipsam nobis
-                                possimus</p>
-                        </div>
-                        <div class="content ">
-                            <img src="./img/1.jpg" alt="img" class="card_image">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, rem totam.
-                                Voluptatibus odit, minima iure obcaecati, harum qui soluta est cupiditate ipsam nobis
-                                possimus</p>
-                        </div>
-                        <div class="content ">
-                            <img src="./img/1.jpg" alt="img" class="card_image">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, rem totam.
-                                Voluptatibus odit, minima iure obcaecati, harum qui soluta est cupiditate ipsam nobis
-                                possimus</p>
+                            <img src="./img/News4.jpg" alt="img" class="card_image">
+                            <p>“Янги Ўзбекистон устозлари” лойиҳасини амалга ошириш учун “Ўқитувчилар Ассоциацияси”
+                                нодавлат ташкилоти жалб қилинди. Лойиҳа бўйича танлаб олинган устозлар кейинги ўқув
+                                йилидан бошлаб таълим даражаси юқори бўлмаган умумтаълим мактабларида ўқувчиларга дарс
+                                беришни бошлайди. Бугунги кунгача Лойихага 100дан ортиқ ариза келиб тушди.
+                                <a class="hover"
+                                    href="http://uzedu.uz/uz/halk-talimi-vazirligi-angi-uzbekiston-ustozlari-lojiasini-elon-kiladi">Batafsil...</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -195,155 +219,96 @@
 
 
             <!--progres block start-->
-            <div class="progres_block">
-                <h1>Aссоцацияни ташкил қилиш атиги 5 босқичда амалга оширилади:</h1>
+            <div id="progres_block" class="progres_block">
+                <h1>Мустақил ассоциациялар ташкил этишда асосий беш босқич:</h1>
                 <div class="steps">
                     <div class="step wow animate__fadeInDown" data-wow-duration="1s">
-                        <i class="fas fa-desktop icon border_top"></i>
-                        <h2 class="step_title">Ташаббускорларни йиғинг</h2>
+                        <i class="fas fa-users icon border_top"></i>
+                        <h2 class="step_title">Камида 10 та ташаббускор йиғинг
+                        </h2>
                     </div>
                     <div class="step wow animate__fadeInDown" data-wow-duration="2s">
-                        <i class="fas fa-briefcase icon border_bottom"></i>
-                        <h2 class="step_title">Низомни ишлабчиқинг</h2>
+                        <i class="far fa-copy icon border_bottom"></i>
+                        <h2 class="step_title">Низом (Устав) ишлаб чиқинг
+                        </h2>
                     </div>
                     <div class="step wow animate__fadeInDown" data-wow-duration="3s">
-                        <i class="far fa-copy icon border_top"></i>
-                        <h2 class="step_title">Адлия Вазирлигига ариза топширинг</h2>
+                        <i class="fas fa-briefcase  icon border_top"></i>
+                        <h2 class="step_title">Адлия Вазирлигига ариза топширинг
+                        </h2>
                     </div>
                     <div class="step wow animate__fadeInDown" data-wow-duration="4s">
-                        <i class="fas fa-user-tie icon border_bottom"></i>
-                        <h2 class="step_title">Tashabbuskorlarni yig'ing</h2>
+                        <i class="fas fa-user-clock icon border_bottom"></i>
+                        <h2 class="step_title">Хужжатларингиз кўриб чиқилишини <br> 1 ой кутинг
+                        </h2>
                     </div>
                     <div class="step wow animate__fadeInDown" data-wow-duration="5s">
                         <i class="fas fa-check icon border_top"></i>
-                        <h2 class="step_title">Ассоциация фаолиятини бошланг</h2>
+                        <h2 class="step_title">ННТ рўйхатдан ўтганлиги тўғрисида гувоҳномани олинг
+                        </h2>
                     </div>
-
+                    <p>*Батафсил маълумот олиш учун, Ўзбекистон Республикаси Вазирлар Маҳкамасининг <a
+                            href="https://lex.uz/docs/2356876">2014 йил 10 мартдаги 57-сон</a> қарор билан тасдиқланган
+                        “Нодавлат нотижорат ташкилотларини давлат рўйхатидан ўтказиш тартиби тўғрисидаги низом” билан
+                        танишиб чиқинг.</p>
                 </div>
             </div>
             <!--progres block end-->
 
             <!-- Corousel starts here -->
-            <div class="carusel wow animate__fadeInLeft" data-wow-duration="2s">
-                <p class="title">ЛОЙИҲА ДОИРАСИДАГИ ИЛК АССОЦИАЦИЯ ФАОЛИЯТИДАН ЛАВХАЛАР</p>
-                <div class="slider owl-carousel">
-                    <div class="card">
-                        <div class="img"><img src="img/1.jpg" alt="img"></div>
-                        <div class="content">
-                            <div class="title">ТЕКСТ</div>
-                            <div class="sub-title">описаниe</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque quis aliquam vel
-                                ipsum earum dicta eius unde atque mollitia!</p>
-                        </div>
+            <!-- Swiper -->
+            <div id="gallary" class="swiper-container mySwiperr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/1.1.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="card">
-                        <div class="img"><img src="img/2.jpg" alt="img"></div>
-                        <div class="content">
-                            <div class="title">ТЕКСТ</div>
-                            <div class="sub-title">описаниe</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque quis aliquam vel
-                                ipsum earum dicta eius unde atque mollitia!</p>
-                        </div>
+                    <div class="swiper-slide container1"><img id="myImg" src="img/1.2.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="card">
-                        <div class="img"><img src="img/3.jpg" alt="img"></div>
-                        <div class="content">
-                            <div class="title">ТЕКСТ</div>
-                            <div class="sub-title">описаниe </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque quis aliquam vel
-                                ipsum earum dicta eius unde atque mollitia!</p>
-                        </div>
+                    <div class="swiper-slide container1"><img id="myImg" src="img/1.3.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                </div>
-            </div>
-
-            <!-- Slider image starts here -->
-            <h2 style="text-align:center">Галерея</h2>
-
-            <div class="container">
-                <div class="mySlides">
-                    <div class="numbertext">1 / 8</div>
-                    <img src="img/1.1.JPG" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">2 / 8</div>
-                    <img src="img/1.2.JPG" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">3 / 8</div>
-                    <img src="img/1.3.JPG" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">4 / 8</div>
-                    <img src="img/1.4.JPG" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">5 / 8</div>
-                    <img src="img/1.5.JPG" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">6 / 8</div>
-                    <img src="img/1.6.JPG" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">7 / 8</div>
-                    <img src="img/1.7.JPG" style="width:100%">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">8 / 8</div>
-                    <img src="img/1.8.jpg" style="width:100%">
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-
-                <div class="row">
-                    <div class="column">
-                        <img class="demo cursor" src="img/1.1.JPG" style="width:100%" onclick="currentSlide(1)"
-                            alt="Бизнинг ўқитувчилар">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/1.4.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/1.2.JPG" style="width:100%" onclick="currentSlide(2)"
-                            alt="Бизнинг ўқитувчилар">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/1.5.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/1.3.JPG" style="width:100%" onclick="currentSlide(3)"
-                            alt="Бизнинг ўқитувчилар">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/2.1.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/1.4.JPG" style="width:100%" onclick="currentSlide(4)"
-                            alt="Бизнинг ўқитувчилар">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/1.7.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/1.5.JPG" style="width:100%" onclick="currentSlide(5)"
-                            alt="Бизнинг ўқитувчилар">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/1.8.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/1.1.JPG" style="width:100%" onclick="currentSlide(6)"
-                            alt="Бизнинг ўқитувчилар">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/2.2.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/1.7.JPG" style="width:100%" onclick="currentSlide(7)"
-                            alt="Бизнинг ўқитувчилар">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/2.3.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/1.8.jpg" style="width:100%" onclick="currentSlide(8)"
-                            alt="Бизнинг ўқитувчилар">
+                    <div class="swiper-slide container1"><img id="myImg" src="img/2.4.jpg" alt="Snow"
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                    </div>
+                    <div class="swiper-slide container1"><img id="myImg" src="img/News2.jpg" alt="Snow"
+                        style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <!-- Modal here  -->
+                <div id="modal01" class="modal" onclick="this.style.display='none'">
+                    <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="modal-content">
+                        <img id="img01">
                     </div>
                 </div>
             </div>
 
-            <!-- Slider image starts here -->
+            <!-- Swiper JS -->
         </main>
         <!--    main end-->
 
@@ -351,29 +316,54 @@
         <!--    footer start-->
         <footer class="footer">
             <div class="container">
-                <div class="contact">
-                    <h1 class="wow animate__fadeInRight" data-wow-duration="2s">Биз билан боғланиш</h1>
-                    <p class="wow animate__fadeInLeft" data-wow-duration="2s"><i
-                            class="fas fa-phone-square-alt"></i>+998 71
-                        207-39-39</p>
+                <div class="footer-section-left">
+                    <div class="text">
+                        <p>
+                            Инновация, технология ва стратегия маркази томонидан амалга оширилаётган “Ўзбекистонда
+                            мустақил ўқитувчилар ассоциациялари имкониятларини кенгайтириш” лойиҳаси Европа Иттифоқи
+                            томонидан молиялаштирилаётган бўлиб, ўқитувчиларнинг жамиятдаги нуфузини ошириш, ижтимоий
+                            ҳимоясини кучайтириш, ҳуқуқий саводхонлигини ошириш, уларнинг касбий салоҳиятини
+                            ривожлантириш мақсадида ассоциациялар тузилиши ва фаолият юритишини қўллаб-қувватлайди.
+                        </p>
+                    </div>
                 </div>
-                <div class="social-network">
-                    <div class="reference">
-                        <h3 class="wow animate__fadeInTopLeft" data-wow-duration="2s">Биз ижтимоий тармоқда</h3>
+                <div class="footer-section-right">
+                    <div class="contact">
+                        <h1 class="wow animate__fadeInRight" data-wow-duration="2s"
+                            style="visibility: visible; animation-duration: 2s; animation-name: fadeInRight;">Биз билан
+                            боғланинг</h1>
+                        <p class="wow animate__fadeInLeft" data-wow-duration="2s"
+                            style="visibility: visible; animation-duration: 2s; animation-name: fadeInLeft;"><i
+                                class="fas fa-phone-square-alt" aria-hidden="true"></i>+998 71
+                            207-39-39</p>
+                    </div>
+                    <div class="social-network">
+                        <h1 class="wow animate__fadeInTopLeft" data-wow-duration="2s"
+                            style="visibility: visible; animation-duration: 2s; animation-name: fadeInTopLeft;">Биз
+                            ижтимоий тармоқда</h1>
                         <ul>
-                            <li class="wow animate__bounceInLeft" data-wow-duration="2s"><a href=""><i
-                                        class="fa fa-facebook icon"></i> </a></li>
-                            <li class="wow animate__bounceInLeft" data-wow-duration="2s"><a href=""><i
-                                        class="fa fa-instagram icon"></i> </a></li>
-                            <li class="wow animate__bounceInLeft" data-wow-duration="2s"><a href=""><i
-                                        class="fab fa-telegram-plane icon"></i> </a></li>
-                            <li class="wow animate__bounceInLeft" data-wow-duration="2s"><a href=""><i
-                                        class="fab fa-tiktok icon"></i> </a></li>
+                            <li class="wow animate__bounceInLeft" data-wow-duration="2s"
+                                style="visibility: visible; animation-duration: 2s; animation-name: bounceInLeft;"><a
+                                    href=""><i class="fa fa-facebook icon" aria-hidden="true"></i> </a></li>
+                            <li class="wow animate__bounceInLeft" data-wow-duration="2s"
+                                style="visibility: visible; animation-duration: 2s; animation-name: bounceInLeft;"><a
+                                    href=""><i class="fa fa-instagram icon" aria-hidden="true"></i> </a></li>
+                            <li class="wow animate__bounceInLeft" data-wow-duration="2s"
+                                style="visibility: visible; animation-duration: 2s; animation-name: bounceInLeft;"><a
+                                    href=""><i class="fab fa-telegram-plane icon" aria-hidden="true"></i> </a></li>
+                            <li class="wow animate__bounceInLeft" data-wow-duration="2s"
+                                style="visibility: visible; animation-duration: 2s; animation-name: bounceInLeft;"><a
+                                    href=""><i class="far fa-envelope icon" aria-hidden="true"></i> </a></li>
                         </ul>
                     </div>
                     <div class="adress">
-                        <h3 class="wow animate__fadeInTopRight" data-wow-duration="2s">Бизнинг манзил</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5992.779455225989!2d69.267482!3d41.322138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE5JzE5LjciTiA2OcKwMTYnMDIuOSJF!5e0!3m2!1suz!2s!4v1621189670057!5m2!1suz!2s"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <h3 class="wow animate__fadeInTopRight" data-wow-duration="2s"
+                            style="visibility: visible; animation-duration: 2s; animation-name: fadeInTopRight;">Бизнинг
+                            манзил</h3>
+                        <p>Тошкент шаҳар, Шайҳонтохур тумани, наови кўчаси, 2А</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5992.779455225989!2d69.267482!3d41.322138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE5JzE5LjciTiA2OcKwMTYnMDIuOSJF!5e0!3m2!1suz!2s!4v1621189670057!5m2!1suz!2s"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
@@ -445,6 +435,33 @@
         dots[slideIndex - 1].className += " active";
         captionText.innerHTML = dots[slideIndex - 1].alt;
     }
+</script>
+<!-- Initialize Swiper -->
+<script>
+    // Modal here/////
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+    }
+    var swiper = new Swiper(".mySwiperr", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
 </script>
 
 </html>
