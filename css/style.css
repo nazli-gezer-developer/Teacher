@@ -1,325 +1,342 @@
-    body {
-        font-family: Inter;
-    }
-    /* map start */
-    
+body {
+    font-family: Inter;
+}
+/* map start */
+
+.map {
+    width: 1180px;
+    margin: 35px auto;
+}
+.map p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.map .map_block {
+    width: 100%;
+}
+
+.map .map_block img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
     .map {
-        width: 1180px;
-        margin: 35px auto;
+        width: 90%;
     }
-    .map p{
-        width: 100%;
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: 30px;
-    }
-    
-    .map .map_block {
-        width: 100%;
-    }
-    
-    .map .map_block img {
-        width: 100%;
-    }
-    
-    @media(max-width: 1200px) {
-        .map {
-            width: 90%;
-        }
-        .map p{
-            font-size: 20px;
-        }
-    }
-    @media(max-width: 600px) {
-        .map p{
-            font-size: 15px;
-        }
-    }
-    /* map end */
-    
-    .carusel .slider {
-        margin: 30px auto;
-        max-width: 1180px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .carusel p.title {
-        padding-top: 50px;
-        width: 70%;
-        margin: 0 auto;
-        width: 100%;
-        font-size: 25px;
-        text-align: center;
-        display: block;
-        color: black;
-    }
-    
-    .slider .card {
-        background: #eee;
-        flex: 1;
-        margin: 0 10px;
-    }
-    
-    .slider .card .img {
-        width: 100%;
-        height: 200px;
-        padding: 8px;
-    }
-    
-    .slider .card .img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 4px;
-    }
-    
-    .slider .card .content {
-        padding: 10px 20px;
-    }
-    
-    .card .content .title {
-        font-size: 25px;
-        font-weight: 600;
-        text-align: center;
-    }
-    
-    .card .content .sub-title {
-        font-size: 25px;
-        font-weight: 600;
-        color: #e74c3c;
-        line-height: 20px;
-        text-align: center;
-    }
-    
-    .card .content p {
-        text-align: justify;
-        margin: 10px 0;
-    }
-    
-    @media(max-width:638px) {
-        .slider {
-            display: none;
-        }
-    }
-    /* dfdfdfdfdf */
-    
-    @keyframes example {
-        0% {
-            transform: translateY(100px);
-            opacity: 0;
-        }
-        100% {
-            transform: translateY(0);
-            opacity: 1;
-        }
-    }
-    /* Projects card starts here  */
-    .Projects_cards{
-        background-color: #FF7300;
-        margin: 35px 0;
-        padding: 35px 0 ;
-    }
-    .containerr {
-        width: 1180px;
-        margin: 0 auto;
-        align-items: center;
-    }
-    
-    .content-1 .nav {
-        text-align: center;
-        font-weight: 700;
-        font-size: 28px;
-        font-style: normal;
-        color: rgb(221, 110, 60);
-        background-color: #fff;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        letter-spacing: 1px;
-        padding: 10px 0;
-    }
-    
-    .burger-nav {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 30px;
-        margin-bottom: 50px;
-    }
-    
-    .burger-nav>.content {
-        align-items: center;
-        position: relative;
-        animation-name: example;
-        animation-duration: 1s;
-        margin: 0 auto;
-        width: 31%;
-        overflow: hidden;
-        margin-top: 10px;
-        height: 620px;
-        background-color: rgb(221, 221, 221);
-    }    
-    .content>p {
-        display: block;
-      
-        margin-top: 10px;
-        text-align: left;
-        padding: 10px 10px;
-        width: 100%;
-        font-family: Inter;
+    .map p {
         font-size: 20px;
-        text-decoration: none;
-        color: #0c0904;
     }
-    
-    .card_image {
-        display: block;
-        margin-top: 20px;
+}
+@media (max-width: 600px) {
+    .map p {
+        font-size: 15px;
+    }
+}
+/* map end */
+
+.carusel .slider {
+    margin: 30px auto;
+    max-width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carusel p.title {
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+.slider .card {
+    background: #eee;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.slider .card .img {
+    width: 100%;
+    height: 200px;
+    padding: 8px;
+}
+
+.slider .card .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.slider .card .content {
+    padding: 10px 20px;
+}
+
+.card .content .title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card .content .sub-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+    text-align: center;
+}
+
+.card .content p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+@media (max-width: 638px) {
+    .slider {
+        display: none;
+    }
+}
+/* dfdfdfdfdf */
+
+@keyframes example {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* Projects card starts here  */
+.Projects_cards {
+    background-color: #ff7300;
+    margin: 35px 0;
+    padding: 35px 0;
+}
+.containerr {
+    width: 1180px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.content-1 .nav {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    font-style: normal;
+    color: rgb(221, 110, 60);
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.burger-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.burger-nav > .content {
+    align-items: center;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    margin: 0 auto;
+    width: 31%;
+    overflow: hidden;
+    margin-top: 10px;
+    height: 620px;
+    background-color: rgb(221, 221, 221);
+}
+.content > p {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px 10px;
+    width: 100%;
+    font-family: Inter;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0c0904;
+}
+
+.card_image {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    transition: 1s all ease;
+}
+
+.card_image:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1250px) {
+    .containerr {
         width: 100%;
-        margin: 0 auto;
-        transition: 1s all ease;
     }
-    
-    .card_image:hover {
-        transform: scale(1.1);
-    }
-    
-    @media (max-width: 1250px) {
-        .containerr {
-            width: 100%;
-        }
-        .content-1 .nav {
-            width: 100%;
-        }
-    }
-    
-    @media (max-width: 1050px) {
-        .containerr {
-            width: 100%;
-        }
-        .containerr .burger-nav .content {
-            width: 48%;
-        }
-        .content-1 .nav {
-            font-size: 20px;
-        }
-    }
-    
-    @media (max-width: 910px) {
-        .containerr {
-            width: 750px;
-        }
-        .containerr .burger-nav .content {
-            width: 48%;
-        }
-    }
-    
-    @media (max-width: 780px) {
-        .containerr {
-            width: 500px;
-        }
-        .containerr .burger-nav .content {
-            width: 90%;
-        }
-        .content-1 .nav {
-            font-size: 15px;
-        }
-    }
-    
-    @media (max-width: 500px) {
-        .containerr {
-            width: 90%;
-        }
-        .containerr .burger-nav .content {
-            width: 90%;
-        }
-    }
-    /* fvffdfdf */
-    
-    .progres_block {
-        width: 90%;
-        margin: 20px auto;
-        border-radius: 8px;
-        background-color: #eee;
-    }
-    
-    .progres_block h1 {
-        width: 90%;
-        margin: 20px auto;
-        padding: 15px;
-        border-bottom: 4px solid #FF7300;
-        text-align: center;
-    }
-    
-    .progres_block .steps {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+    .content-1 .nav {
         width: 100%;
-        margin: 0 auto;
     }
-    
-    .progres_block .steps .step {
-        width: 210px;
-        padding: 5px;
-        border-radius: 6px;
-        margin: 10px auto;
+}
+
+@media (max-width: 1050px) {
+    .containerr {
+        width: 100%;
     }
-    .progres_block .steps p{
-        width: 90%;
-        margin: 10px auto;
+    .containerr .burger-nav .content {
+        width: 48%;
+    }
+    .content-1 .nav {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 910px) {
+    .containerr {
+        width: 750px;
+    }
+    .containerr .burger-nav .content {
+        width: 48%;
+    }
+    .burger-nav > .content {
+        height: 570px;
+    }
+    .content > p {
         font-size: 18px;
-        text-align: center;
     }
-    
-    .steps .step .border_top {
-        border-top: 7px solid #FF7300;
+}
+
+@media (max-width: 780px) {
+    .containerr {
+        width: 500px;
     }
-    
-    .steps .step .border_bottom {
-        border-bottom: 7px solid #FF7300;
+    .containerr .burger-nav .content {
+        width: 90%;
     }
-    
-    .steps .step .icon {
-        max-width: 50%;
-        width: 100%;
-        border-radius: 50%;
-        padding: 4px;
-        font-size: 50px;
-        text-align: center;
-        display: block;
-        margin: 10px auto;
-        padding: 20px;
+    .content-1 .nav {
+        font-size: 15px;
     }
-    
+    .burger-nav > .content {
+        height: 550px;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerr {
+        width: 90%;
+    }
+    .containerr .burger-nav .content {
+        width: 90%;
+    }
+    .burger-nav > .content {
+        height: 520px;
+    }
+    .content > p {
+        font-size: 16px;
+    }
+}
+/* fvffdfdf */
+
+.progres_block {
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: #eee;
+}
+
+.progres_block h1 {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    border-bottom: 4px solid #ff7300;
+    text-align: center;
+}
+
+.progres_block .steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.progres_block .steps .step {
+    width: 210px;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 10px auto;
+}
+.progres_block .steps p {
+    width: 90%;
+    margin: 10px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.steps .step .border_top {
+    border-top: 7px solid #ff7300;
+}
+
+.steps .step .border_bottom {
+    border-bottom: 7px solid #ff7300;
+}
+
+.steps .step .icon {
+    max-width: 50%;
+    width: 100%;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.steps .step .step_title {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.steps .step .step_subtitle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .progres_block h1 {
+        font-size: 25px;
+    }
     .steps .step .step_title {
-        text-align: center;
-        margin-top: 10px;
-        width: 100%;
+        font-size: 25px;
     }
-    
-    .steps .step .step_subtitle {
-        text-align: center;
-        margin-top: 10px;
+    .progres_block .steps p {
+        font-size: 16px;
     }
-    
-    @media(max-width:600px) {
-        .progres_block h1 {
-            font-size: 25px;
-        }
-        .steps .step .step_title {
-            font-size: 25px;
-        }
-        .progres_block .steps p{
-            font-size: 10px;
-        }
+}
+
+@media (max-width: 400px) {
+    .progres_block h1 {
+        font-size: 20px;
     }
-    
-    @media(max-width:400px) {
-        .progres_block h1 {
-            font-size: 20px;
-        }
-        .steps .step .step_title {
-            font-size: 20px;
-        }
+    .steps .step .step_title {
+        font-size: 20px;
     }
+    .progres_block .steps p {
+        font-size: 14px;
+    }
+}

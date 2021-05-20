@@ -40,19 +40,45 @@
                 <!-- The overlay -->
                 <div class="overlay">
                     <ul class="mobile-menu__list">
-                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#home"></a> </li>
-                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#Video">Видео</a> </li>
-                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#about">Биз ҳақимизда</a> </li>
-                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#map">Харита</a> </li>
-                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#Projects_cards">Лойихалар</a>
+                        <li><a href="#home"></a> </li>
+                        <li><a href="#Video">Видео</a> </li>
+                        <li><a href="#about">Биз ҳақимизда</a> </li>
+                        <li><a href="#map">Харита</a> </li>
+                        <li><a href="#Projects_cards">Лойихалар</a>
                         </li>
-                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#progres_block">Прогрес</a>
+                        <li><a href="#progres_block">Прогрес</a>
                         </li>
-                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#gallary">Галерия</a> </li>
-                        <li class="mobile-menu__item"><a class="mobile-menu__link" href="#footer">Aлоқа</a> </li>
+                        <li><a href="#gallary">Галерия</a> </li>
+                        <li><a href="#footer">Aлоқа</a> </li>
                     </ul>
                 </div>
         </div>
+        <div class="topnav" id="myTopnav">
+            <img src="img/logo2.png" width="100" class="active" alt="">
+            <img src="img/logo1.png" class="active" alt="">
+            <a href="#home"></a>
+            <a href="#Video">Видео</a>
+            <a href="#about">Биз ҳақимизда</a>
+            <a href="#map">Харита</a>
+            <a href="#Projects_cards">Лойихалар</a>
+            <a href="#progres_block">Прогрес</a>
+            <a href="#gallary">Галерия</a>
+            <a href="#footer">Aлоқа</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
         <header id="home">
             <!-- Swiper -->
             <div class="swiper-container2 mySwiper">
@@ -216,8 +242,6 @@
                 </div>
             </div>
             <!--end-->
-
-
             <!--progres block start-->
             <div id="progres_block" class="progres_block">
                 <h1>Мустақил ассоциациялар ташкил этишда асосий беш босқич:</h1>
@@ -254,7 +278,6 @@
                 </div>
             </div>
             <!--progres block end-->
-
             <!-- Corousel starts here -->
             <!-- Swiper -->
             <div id="gallary" class="swiper-container mySwiperr">
@@ -293,8 +316,8 @@
                             style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
                     </div>
                     <div class="swiper-slide container1"><img id="myImg" src="img/News2.jpg" alt="Snow"
-                        style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
-                </div>
+                            style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                    </div>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
