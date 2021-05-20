@@ -74,61 +74,56 @@ var simplemaps_countrymap_mapdata = {
     },
     state_specific: {
         UZB354: {
-            name: "Bukhoro",
+            name: "Букҳоро",
 
         },
         UZB355: {
-            name: "Khorezm",
+            name: "Хоразм",
 
         },
         UZB356: {
-            name: "Karakalpakstan",
+            name: "Қарақалпоғистон",
         },
         UZB357: {
-            name: "Navoi"
+            name: "Навои"
         },
         UZB358: {
-            name: "Samarkand"
+            name: "Самарқанд"
         },
         UZB361: {
-            name: "Kashkadarya"
+            name: "Қашқадарё"
         },
         UZB362: {
-            name: "Surkhandarya"
+            name: "Сурҳандарё"
         },
         UZB363: {
-            name: "Andijon"
+            name: "Aндижон"
         },
         UZB364: {
-            name: "Ferghana"
+            name: "Фарғона"
         },
         UZB365: {
-            name: "Namangan"
+            name: "Наманган"
         },
         UZB370: {
-            name: "Jizzakh"
+            name: "Жиззаҳ"
         },
         UZB371: {
-            name: "Sirdaryo"
+            name: "Сирдарё"
         },
         UZB372: {
-            name: "Tashkent"
+            name: "Ташкент"
         },
         UZB4828: {
-            name: "Tashkent"
+            name: "Ташкент"
         }
     },
     locations: {
-        // "0": {
-        //     lat: "41.316667",
-        //     lng: "69.25",
-        //     name: "Tashkent"
-        // },
         "0": {
             lat: "41.3166677",
             lng: "69.25",
-            name: '<img src="img/map_logo.png" width="100px" />',
-            description: '<div class"map"><div id="buxoro"><p>“Ўқитувчилар ассоциацияси” </p></div></div>',
+            name: '<img  style=" margin: 0 50px; " src="img/map_logo.png" width="100px" />',
+            description: '<div class"map"><div id="buxoro"><p style="display: block; font-size: 18px;">“Ўқитувчилар ассоциацияси”</p></div></div>',
         }
     },
     labels: {
