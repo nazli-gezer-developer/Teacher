@@ -170,7 +170,7 @@ body {
     text-decoration: none;
     color: #0c0904;
 }
-.content > .hover{
+.content > .hover {
     border: none;
     border-radius: 50px;
     background: #ff7300;
@@ -201,7 +201,7 @@ body {
     .content-1 .nav {
         width: 100%;
     }
-    .burger-nav > .content p{
+    .burger-nav > .content p {
         height: 370px;
     }
 }
@@ -213,7 +213,7 @@ body {
     .containerr .burger-nav .content {
         width: 48%;
     }
-    .burger-nav > .content p{
+    .burger-nav > .content p {
         height: 260px;
     }
     .content-1 .nav {
@@ -227,7 +227,7 @@ body {
     .containerr .burger-nav .content {
         width: 48%;
     }
-    .burger-nav > .content p{
+    .burger-nav > .content p {
         height: 280px;
     }
     .content-1 .nav {
@@ -242,7 +242,7 @@ body {
     .containerr .burger-nav .content {
         width: 48%;
     }
-    .burger-nav > .content p{
+    .burger-nav > .content p {
         height: 290px;
     }
     .content > p {
@@ -272,17 +272,17 @@ body {
     .containerr .burger-nav .content {
         width: 90%;
     }
-    .burger-nav > .content p{
+    .burger-nav > .content p {
         height: 220px;
         margin: 20px auto;
     }
-    .content .hover{
+    .content .hover {
         margin: -20px auto;
     }
     .content > p {
         font-size: 16px;
     }
-    .content > .hover{
+    .content > .hover {
         border: none;
         border-radius: 50px;
         background: #ff7300;
@@ -303,17 +303,43 @@ body {
     .containerr .burger-nav .content {
         width: 90%;
     }
-    .burger-nav > .content p{
-        height: 240px;
+    .burger-nav > .content p {
+        height: 270px;
     }
     .content > p {
         font-size: 16px;
     }
-    .content > .hover{
+    .content > .hover {
         border: none;
         border-radius: 50px;
         background: #ff7300;
         margin: 0 auto;
+        display: block;
+        max-width: 50%;
+        padding: 5px 10px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+    }
+}
+@media (max-width: 380px) {
+    .containerr {
+        width: 90%;
+    }
+    .containerr .burger-nav .content {
+        width: 90%;
+    }
+    .burger-nav > .content p {
+        height: 300px;
+    }
+    .content > p {
+        font-size: 16px;
+    }
+    .content > .hover {
+        border: none;
+        border-radius: 50px;
+        background: #ff7300;
+        margin: 50px auto !important;
         display: block;
         max-width: 50%;
         padding: 5px 10px;
